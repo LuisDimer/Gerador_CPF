@@ -1,7 +1,3 @@
-<meta charset="utf-8">
-
-<script>
-
   //Nove primeiros digitos
   var primeiroDigito = Math.floor(Math.random() * 10);
   var segundoDigito = Math.floor(Math.random() * 10);
@@ -32,6 +28,3 @@
   }
 
   document.write("CPF gerado: " + primeiroDigito, segundoDigito, terceiroDigito + "." + quartoDigito, quintoDigito, sextoDigito + "." + setimoDigito, oitavoDigito, nonoDigito + "-" + primeiroVerificador, segundoVerificador);
-
-
-</script>
